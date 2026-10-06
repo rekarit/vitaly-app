@@ -112303,7 +112303,7 @@ a3=b6.afq(b9,b8)
 a4=b6.x
 a4===$&&A.b()
 a4=b6.BO(b9,a4,"ReferenceCode")
-a5=b6.HQ("MaterialImage*",!0)
+a5=b6.HQ("MaterialImage",!1)
 a6=b6.gasF()
 a7=A.l(6)
 a8=A.a5(b6.cx!=null?e:l,1)
