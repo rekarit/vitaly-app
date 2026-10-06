@@ -110447,7 +110447,7 @@ A.aF(s.d,!1).aJ(r)
 s.e.R(t.J).f.d4(A.dp(r,r,r,s.f.z,r,B.y,r,A.f('Updated category to "'+q+'"',r,r,r,r,r,r,r),r,B.eL,r,r,r,r,r,r,r,r,r,r))}},
 $S:0}
 A.aAo.prototype={
-$1(a){var s=this,r=null,q=s.a,p=A.l(14),o=s.b,n=A.f("Delete Category "+o.a+"?",r,r,r,A.h().$3$color$fontSize$fontWeight(q.w,16,B.t),r,r,r),m=q.x,l=A.f('\u0626\u06d5\u0645 \u06a9\u0627\u062a\u06d5\u06af\u06c6\u0631\u06cc\u06cc\u06d5 \u0647\u06cc\u0686 \u0645\u0627\u062a\u06d5\u0631\u06cc\u0627\u0644 \u0648 \u0633\u0644\u0627\u0628\u06ce\u06a9\u06cc \u062a\u06ce\u062f\u0627 \u0646\u06cc\u06cc\u06d5.\n\u062f\u06b5\u0646\u06cc\u0627\u06cc\u062a \u0644\u06d5 \u0633\u0695\u06cc\u0646\u06d5\u0648\u06d5\u06cc "'+o.b+'"\u061f',r,r,r,A.h().$2$color$fontSize(m,13.5),r,r,r)
+$1(a){var s=this,r=null,q=s.a,p=A.l(14),o=s.b,n=A.f("Delete Category "+o.a+"?",r,r,r,A.h().$3$color$fontSize$fontWeight(q.w,16,B.t),r,r,r),m=q.x,l=A.f('This category has no materials or slabs.\nAre you sure you want to delete "'+o.b+'"?',r,r,r,A.h().$2$color$fontSize(m,13.5),r,r,r)
 return A.oI(A.a([A.fl(A.f("Cancel",r,r,r,A.aR(r,r,m,r,r,r,r,r,r,r,r,r,r,r,r,r,r,!0,r,r,r,r,r,r,r,r),r,r,r),new A.aAm(a),r),A.eh(B.pL,new A.aAn(s.c,o,a,s.d,q),A.c_(r,r,q.as,r,r,r,0,r,r,B.m,r,r,r,r,new A.au(A.l(6),B.k),r,r,r,r,r))],t.p),q.b,l,new A.au(p,new A.a6(q.d,1,B.p,-1)),n)},
 $S:56}
 A.aAm.prototype={
@@ -110462,8 +110462,8 @@ s.d.R(t.J).f.d4(A.dp(r,r,r,s.e.as,r,B.y,r,A.f('Category "'+q.b+'" was deleted.',
 $S:0}
 A.aAL.prototype={
 $1(a4){var s,r,q,p,o,n,m,l,k,j,i,h,g,f=this,e=null,d=f.b,c=A.l(16),b=d.d,a=d.as,a0=A.a0(25,a.m()>>>16&255,a.m()>>>8&255,a.m()&255),a1=A.l(8),a2=d.w,a3=t.p
-a1=A.R(A.a([A.w(e,A.Z(B.ds,a,e,24),B.f,e,e,new A.u(a0,e,e,a1,e,e,B.j),e,e,e,B.eQ,e,e,e),B.ax,A.a8(A.f("\u0647\u06c6\u0634\u062f\u0627\u0631\u06cc \u0633\u0695\u06cc\u0646\u06d5\u0648\u06d5\u06cc \u06a9\u0627\u062a\u06d5\u06af\u06c6\u0631\u06cc",e,e,e,A.h().$3$color$fontSize$fontWeight(a2,16,B.o),e,e,e),1)],a3),B.i,B.e,B.h,0,e)
-a0=A.f("\u0626\u06d5\u0645 \u06a9\u0627\u062a\u06d5\u06af\u06c6\u0631\u06cc\u06cc\u06d5 \u0628\u06d5\u062a\u0627\u06b5 \u0646\u06cc\u06cc\u06d5 \u0648 \u0632\u0627\u0646\u06cc\u0627\u0631\u06cc \u06af\u0631\u0646\u06af\u06cc \u062a\u06ce\u062f\u0627\u06cc\u06d5:",e,e,e,A.h().$3$color$fontSize$fontWeight(a2,13.5,B.t),e,e,e)
+a1=A.R(A.a([A.w(e,A.Z(B.ds,a,e,24),B.f,e,e,new A.u(a0,e,e,a1,e,e,B.j),e,e,e,B.eQ,e,e,e),B.ax,A.a8(A.f("Category Deletion Warning",e,e,e,A.h().$3$color$fontSize$fontWeight(a2,16,B.o),e,e,e),1)],a3),B.i,B.e,B.h,0,e)
+a0=A.f("This category is not empty and has linked items:",e,e,e,A.h().$3$color$fontSize$fontWeight(a2,13.5,B.t),e,e,e)
 s=A.l(8)
 r=A.a5(b,1)
 q=d.x
@@ -110471,8 +110471,8 @@ p=f.c
 o=f.d
 n=d.e
 m=f.e
-s=A.w(e,A.a4(A.a([A.R(A.a([A.f("\u06a9\u0627\u062a\u06d5\u06af\u06c6\u0631\u06cc:",e,e,e,A.aR(e,e,q,e,e,e,e,e,e,e,e,12.5,e,e,e,e,e,!0,e,e,e,e,e,e,e,e),e,e,e),A.f(p.b+" ("+p.a+")",e,e,e,A.aR(e,e,a2,e,e,e,e,e,e,e,e,12.5,e,e,B.o,e,e,!0,e,e,e,e,e,e,e,e),e,e,e)],a3),B.i,B.ap,B.h,0,e),B.B,A.R(A.a([A.f("\u0698\u0645\u0627\u0631\u06d5\u06cc \u0645\u0627\u062a\u06d5\u0631\u06cc\u0627\u0644\u06d5\u06a9\u0627\u0646:",e,e,e,A.aR(e,e,q,e,e,e,e,e,e,e,e,12.5,e,e,e,e,e,!0,e,e,e,e,e,e,e,e),e,e,e),A.f(""+o+" Materials",e,e,e,A.aR(e,e,n,e,e,e,e,e,e,e,e,12.5,e,e,B.o,e,e,!0,e,e,e,e,e,e,e,e),e,e,e)],a3),B.i,B.ap,B.h,0,e),B.B,A.R(A.a([A.f("\u0698\u0645\u0627\u0631\u06d5\u06cc \u0633\u0644\u0627\u0628\u06d5\u06a9\u0627\u0646:",e,e,e,A.aR(e,e,q,e,e,e,e,e,e,e,e,12.5,e,e,e,e,e,!0,e,e,e,e,e,e,e,e),e,e,e),A.f(""+m+" Slabs",e,e,e,A.aR(e,e,n,e,e,e,e,e,e,e,e,12.5,e,e,B.o,e,e,!0,e,e,e,e,e,e,e,e),e,e,e)],a3),B.i,B.ap,B.h,0,e)],a3),B.i,B.e,B.h),B.f,e,e,new A.u(d.c,e,r,s,e,e,B.j),e,e,e,B.ce,e,e,e)
-r=A.f("\u062a\u06a9\u0627\u06cc\u06d5 \u06cc\u06d5\u06a9\u06ce\u06a9 \u0644\u06d5\u0645 \u062f\u0648\u0648 \u0695\u06ce\u06af\u0627\u06cc\u06d5 \u0647\u06d5\u06b5\u0628\u0698\u06ce\u0631\u06d5 \u0628\u06c6 \u0628\u06d5\u0631\u062f\u06d5\u0648\u0627\u0645\u0628\u0648\u0648\u0646:",e,e,e,A.h().$2$color$fontSize(q,12.5),e,e,e)
+s=A.w(e,A.a4(A.a([A.R(A.a([A.f("Category:",e,e,e,A.aR(e,e,q,e,e,e,e,e,e,e,e,12.5,e,e,e,e,e,!0,e,e,e,e,e,e,e,e),e,e,e),A.f(p.b+" ("+p.a+")",e,e,e,A.aR(e,e,a2,e,e,e,e,e,e,e,e,12.5,e,e,B.o,e,e,!0,e,e,e,e,e,e,e,e),e,e,e)],a3),B.i,B.ap,B.h,0,e),B.B,A.R(A.a([A.f("Total Materials:",e,e,e,A.aR(e,e,q,e,e,e,e,e,e,e,e,12.5,e,e,e,e,e,!0,e,e,e,e,e,e,e,e),e,e,e),A.f(""+o+" Materials",e,e,e,A.aR(e,e,n,e,e,e,e,e,e,e,e,12.5,e,e,B.o,e,e,!0,e,e,e,e,e,e,e,e),e,e,e)],a3),B.i,B.ap,B.h,0,e),B.B,A.R(A.a([A.f("Total Slabs:",e,e,e,A.aR(e,e,q,e,e,e,e,e,e,e,e,12.5,e,e,e,e,e,!0,e,e,e,e,e,e,e,e),e,e,e),A.f(""+m+" Slabs",e,e,e,A.aR(e,e,n,e,e,e,e,e,e,e,e,12.5,e,e,B.o,e,e,!0,e,e,e,e,e,e,e,e),e,e,e)],a3),B.i,B.ap,B.h,0,e)],a3),B.i,B.e,B.h),B.f,e,e,new A.u(d.c,e,r,s,e,e,B.j),e,e,e,B.ce,e,e,e)
+r=A.f("Please select one of the options below to proceed:",e,e,e,A.h().$2$color$fontSize(q,12.5),e,e,e)
 n=f.a
 a2=f.f
 l=f.r
@@ -110483,15 +110483,15 @@ i=A.a0(i,a.m()>>>16&255,a.m()>>>8&255,a.m()&255)
 h=A.l(8)
 g=k?80:60
 g=A.a5(A.a0(g,a.m()>>>16&255,a.m()>>>8&255,a.m()&255),1)
-h=A.aU(!1,j,!0,A.w(e,A.R(A.a([A.Z(B.uF,a,e,22),B.ax,A.a8(A.a4(A.a([A.f("\u0633\u0695\u06cc\u0646\u06d5\u0648\u06d5\u06cc \u0647\u06d5\u0645\u0648\u0648\u06cc (Delete All)",e,e,e,A.h().$3$color$fontSize$fontWeight(a,13,B.o),e,e,e),A.f("\u06a9\u0627\u062a\u06d5\u06af\u06c6\u0631\u06cc\u06cc\u06d5\u06a9\u06d5 \u0644\u06d5\u06af\u06d5\u06b5 \u0633\u06d5\u0631\u062c\u06d5\u0645 \u0645\u0627\u062a\u06d5\u0631\u06cc\u0627\u0644 \u0648 \u0633\u0644\u0627\u0628\u06d5\u06a9\u0627\u0646\u06cc \u062f\u06d5\u0633\u0695\u06ce\u062a\u06d5\u0648\u06d5",e,e,e,A.h().$2$color$fontSize(q,11),e,e,e)],a3),B.x,B.e,B.h),1),A.Z(B.dV,a,e,18)],a3),B.i,B.e,B.h,0,e),B.f,e,e,new A.u(i,e,g,h,e,e,B.j),e,e,e,B.ce,e,e,e),e,!0,e,e,e,e,e,e,e,e,e,e,new A.aAI(n,a4,a2,p,o,m,l,d,k),e,e,e,e,e,e,e)
+h=A.aU(!1,j,!0,A.w(e,A.R(A.a([A.Z(B.uF,a,e,22),B.ax,A.a8(A.a4(A.a([A.f("Delete All",e,e,e,A.h().$3$color$fontSize$fontWeight(a,13,B.o),e,e,e),A.f("Delete this category along with all linked materials and slabs",e,e,e,A.h().$2$color$fontSize(q,11),e,e,e)],a3),B.x,B.e,B.h),1),A.Z(B.dV,a,e,18)],a3),B.i,B.e,B.h,0,e),B.f,e,e,new A.u(i,e,g,h,e,e,B.j),e,e,e,B.ce,e,e,e),e,!0,e,e,e,e,e,e,e,e,e,e,new A.aAI(n,a4,a2,p,o,m,l,d,k),e,e,e,e,e,e,e)
 g=A.l(8)
 a=k?25:15
 a=A.a0(a,B.bt.m()>>>16&255,B.bt.m()>>>8&255,B.bt.m()&255)
 j=A.l(8)
 i=k?80:60
 i=A.a5(A.a0(i,B.bt.m()>>>16&255,B.bt.m()>>>8&255,B.bt.m()&255),1)
-k=A.a4(A.a([a0,B.bp,s,B.N,r,B.N,h,B.aP,A.aU(!1,g,!0,A.w(e,A.R(A.a([B.PP,B.ax,A.a8(A.a4(A.a([A.f("\u06af\u0648\u0627\u0633\u062a\u0646\u06d5\u0648\u06d5 \u0628\u06c6 \u06a9\u0627\u062a\u06d5\u06af\u06c6\u0631\u06cc\u06cc\u06d5\u06a9\u06cc \u062a\u0631 (Transfer)",e,e,e,A.h().$3$color$fontSize$fontWeight(B.bt,13,B.o),e,e,e),A.f("\u0645\u0627\u062a\u06d5\u0631\u06cc\u0627\u0644 \u0648 \u0633\u0644\u0627\u0628\u06d5\u06a9\u0627\u0646 \u062f\u06d5\u0686\u0646\u06d5 \u06a9\u0627\u062a\u06d5\u06af\u06c6\u0631\u06cc\u06cc\u06d5\u06a9\u06cc \u062a\u0631 \u0648 \u0626\u06d5\u0645 \u06a9\u0627\u062a\u06d5\u06af\u06c6\u0631\u06cc\u06cc\u06d5 \u062f\u06d5\u0633\u0695\u06ce\u062a\u06d5\u0648\u06d5",e,e,e,A.h().$2$color$fontSize(q,11),e,e,e)],a3),B.x,B.e,B.h),1),B.Q4],a3),B.i,B.e,B.h,0,e),B.f,e,e,new A.u(a,e,i,j,e,e,B.j),e,e,e,B.ce,e,e,e),e,!0,e,e,e,e,e,e,e,e,e,e,new A.aAJ(n,a4,a2,p,o,m,l,d,k),e,e,e,e,e,e,e)],a3),B.x,B.e,B.w)
-return A.oI(A.a([A.fl(A.f("\u062f\u0627\u062e\u0633\u062a\u0646 / Cancel",e,e,e,A.aR(e,e,q,e,e,e,e,e,e,e,e,e,e,e,e,e,e,!0,e,e,e,e,e,e,e,e),e,e,e),new A.aAK(a4),e)],a3),d.b,k,new A.au(c,new A.a6(b,1,B.p,-1)),a1)},
+k=A.a4(A.a([a0,B.bp,s,B.N,r,B.N,h,B.aP,A.aU(!1,g,!0,A.w(e,A.R(A.a([B.PP,B.ax,A.a8(A.a4(A.a([A.f("Transfer to another Category",e,e,e,A.h().$3$color$fontSize$fontWeight(B.bt,13,B.o),e,e,e),A.f("Move materials and slabs to another category, then delete this one",e,e,e,A.h().$2$color$fontSize(q,11),e,e,e)],a3),B.x,B.e,B.h),1),B.Q4],a3),B.i,B.e,B.h,0,e),B.f,e,e,new A.u(a,e,i,j,e,e,B.j),e,e,e,B.ce,e,e,e),e,!0,e,e,e,e,e,e,e,e,e,e,new A.aAJ(n,a4,a2,p,o,m,l,d,k),e,e,e,e,e,e,e)],a3),B.x,B.e,B.w)
+return A.oI(A.a([A.fl(A.f("Cancel",e,e,e,A.aR(e,e,q,e,e,e,e,e,e,e,e,e,e,e,e,e,e,!0,e,e,e,e,e,e,e,e),e,e,e),new A.aAK(a4),e)],a3),d.b,k,new A.au(c,new A.a6(b,1,B.p,-1)),a1)},
 $S:56}
 A.aAI.prototype={
 $0(){var s=this
@@ -110512,7 +110512,7 @@ $1(a){var s=this
 return new A.k8(new A.aAt(s.a,s.b,s.c,s.d,a,s.e,s.f,s.r),null)},
 $S:71}
 A.aAt.prototype={
-$2(a,b){var s,r,q,p,o=this,n=null,m=o.a,l=B.c.aG(m.a.a),k=o.b,j=A.l(16),i=k.d,h=k.as,g=A.f("\u067e\u0634\u062a\u0695\u0627\u0633\u062a\u06a9\u0631\u062f\u0646\u06d5\u0648\u06d5\u06cc \u0633\u0695\u06cc\u0646\u06d5\u0648\u06d5\u06cc \u0647\u06d5\u0645\u0648\u0648\u06cc",n,n,n,A.h().$3$color$fontSize$fontWeight(h,16,B.o),n,n,n),f=k.w,e=A.f("\u0626\u06d5\u0645 \u06a9\u0631\u062f\u0627\u0631\u06d5 \u0633\u06d5\u0631\u062c\u06d5\u0645 ("+o.c+") \u0645\u0627\u062a\u06d5\u0631\u06cc\u0627\u0644 \u0648 ("+o.d+") \u0633\u0644\u0627\u0628 \u0628\u06d5 \u06cc\u06d5\u06a9\u062c\u0627\u0631\u06cc \u062f\u06d5\u0633\u0695\u06ce\u062a\u06d5\u0648\u06d5 \u0648 \u0646\u0627\u06af\u06d5\u0695\u06ce\u062a\u06d5\u0648\u06d5!",n,n,n,A.h().$2$color$fontSize(f,13),n,n,n),d=k.x,c=A.f('\u0628\u06c6 \u062f\u06b5\u0646\u06cc\u0627\u0628\u0648\u0648\u0646\u06d5\u0648\u06d5\u060c \u062a\u06a9\u0627\u06cc\u06d5 \u0648\u0634\u06d5\u06cc "Delete" \u0644\u06d5 \u062e\u0648\u0627\u0631\u06d5\u0648\u06d5 \u0628\u0646\u0648\u0648\u0633\u06d5:',n,n,n,A.h().$3$color$fontSize$fontWeight(d,12.5,B.t),n,n,n)
+$2(a,b){var s,r,q,p,o=this,n=null,m=o.a,l=B.c.aG(m.a.a),k=o.b,j=A.l(16),i=k.d,h=k.as,g=A.f("Confirm Delete All",n,n,n,A.h().$3$color$fontSize$fontWeight(h,16,B.o),n,n,n),f=k.w,e=A.f("This action will permanently delete all "+o.c+" materials and "+o.d+" slabs. This cannot be undone!",n,n,n,A.h().$2$color$fontSize(f,13),n,n,n),d=k.x,c=A.f('To confirm, please type "Delete" below:',n,n,n,A.h().$3$color$fontSize$fontWeight(d,12.5,B.t),n,n,n)
 f=A.h().$3$color$fontSize$fontWeight(f,14,B.o)
 s=k.y
 r=A.h().$1$color(s)
@@ -110538,7 +110538,7 @@ A.aAs.prototype={
 $0(){var s=this,r=null,q=s.b
 s.a.aAK(q)
 A.aF(s.c,!1).aJ(r)
-s.d.R(t.J).f.d4(A.dp(r,r,r,s.e.as,r,B.y,r,A.f('\u06a9\u0627\u062a\u06d5\u06af\u06c6\u0631\u06cc "'+q.b+'" \u0644\u06d5\u06af\u06d5\u06b5 \u0633\u06d5\u0631\u062c\u06d5\u0645 \u0645\u0627\u062a\u06d5\u0631\u06cc\u0627\u0644 \u0648 \u0633\u0644\u0627\u0628\u06d5\u06a9\u0627\u0646\u06cc \u0633\u0695\u0627\u0646\u06d5\u0648\u06d5.',r,r,r,r,r,r,r),r,B.k9,r,r,r,r,r,r,r,r,r,r))},
+s.d.R(t.J).f.d4(A.dp(r,r,r,s.e.as,r,B.y,r,A.f('Category "'+q.b+'" and all linked materials and slabs were deleted.',r,r,r,r,r,r,r),r,B.k9,r,r,r,r,r,r,r,r,r,r))},
 $S:0}
 A.aAG.prototype={
 $1(a){return a.a!==this.a.a},
@@ -110548,10 +110548,10 @@ $1(a){var s=this
 return new A.k8(new A.aAF(s.a,s.b,s.c,s.d,s.e,s.f,s.r,a,s.w,s.x),null)},
 $S:71}
 A.aAF.prototype={
-$2(a3,a4){var s=this,r=null,q=s.b,p=B.c.aG(q.a.a),o=s.c,n=o.b,m=A.l(16),l=o.d,k=o.w,j=A.f("\u06af\u0648\u0627\u0633\u062a\u0646\u06d5\u0648\u06d5\u06cc \u062f\u0627\u062a\u0627\u06a9\u0627\u0646 \u0628\u06c6 \u06a9\u0627\u062a\u06d5\u06af\u06c6\u0631\u06cc\u06cc\u06d5\u06a9\u06cc \u062a\u0631",r,r,r,A.h().$3$color$fontSize$fontWeight(k,16,B.o),r,r,r),i=s.f,h=o.x,g=A.f("\u0633\u06d5\u0631\u062c\u06d5\u0645 ("+s.d+") \u0645\u0627\u062a\u06d5\u0631\u06cc\u0627\u0644 \u0648 ("+s.e+") \u0633\u0644\u0627\u0628 \u062f\u06d5\u06af\u0648\u0627\u0632\u0631\u06ce\u0646\u06d5\u0648\u06d5\u060c \u067e\u0627\u0634\u0627\u0646 \u06a9\u0627\u062a\u06d5\u06af\u06c6\u0631\u06cc ("+i.b+") \u062f\u06d5\u0633\u0695\u062f\u0631\u06ce\u062a\u06d5\u0648\u06d5.",r,r,r,A.h().$2$color$fontSize(h,13),r,r,r),f=A.f("\u06a9\u0627\u062a\u06d5\u06af\u06c6\u0631\u06cc \u0645\u06d5\u0628\u06d5\u0633\u062a \u0647\u06d5\u06b5\u0628\u0698\u06ce\u0631\u06d5 (Target Category):",r,r,r,A.h().$3$color$fontSize$fontWeight(k,12.5,B.t),r,r,r),e=o.c,d=A.l(8),c=A.a5(l,1),b=s.a,a=b.a,a0=A.h().$2$color$fontSize(k,13),a1=s.r,a2=A.T(a1).i("t<1,bO<cJ>>")
+$2(a3,a4){var s=this,r=null,q=s.b,p=B.c.aG(q.a.a),o=s.c,n=o.b,m=A.l(16),l=o.d,k=o.w,j=A.f("Transfer Items to Another Category",r,r,r,A.h().$3$color$fontSize$fontWeight(k,16,B.o),r,r,r),i=s.f,h=o.x,g=A.f("All "+s.d+" materials and "+s.e+' slabs will be moved, then category "'+i.b+'" will be deleted.',r,r,r,A.h().$2$color$fontSize(h,13),r,r,r),f=A.f("Select Destination Category:",r,r,r,A.h().$3$color$fontSize$fontWeight(k,12.5,B.t),r,r,r),e=o.c,d=A.l(8),c=A.a5(l,1),b=s.a,a=b.a,a0=A.h().$2$color$fontSize(k,13),a1=s.r,a2=A.T(a1).i("t<1,bO<cJ>>")
 a1=A.W(new A.t(a1,new A.aAA(),a2),a2.i("ad.E"))
 d=A.w(r,new A.dH(A.ef(n,r,r,!0,a1,new A.aAB(b,a4),a0,r,a,t.Mx),r),B.f,r,r,new A.u(e,r,c,d,r,r,B.j),r,r,r,B.a3,r,r,r)
-c=A.f('\u0628\u06c6 \u062a\u06d5\u0648\u0627\u0648\u06a9\u0631\u062f\u0646\u06cc \u06af\u0648\u0627\u0633\u062a\u0646\u06d5\u0648\u06d5\u06a9\u06d5\u060c \u0648\u0634\u06d5\u06cc "confirm" \u0628\u0646\u0648\u0648\u0633\u06d5:',r,r,r,A.h().$3$color$fontSize$fontWeight(h,12.5,B.t),r,r,r)
+c=A.f('To confirm transfer, please type "confirm" below:',r,r,r,A.h().$3$color$fontSize$fontWeight(h,12.5,B.t),r,r,r)
 k=A.h().$3$color$fontSize$fontWeight(k,14,B.o)
 o=o.y
 a=A.h().$1$color(o)
@@ -110586,7 +110586,7 @@ A.aAE.prototype={
 $0(){var s=this,r=null,q=s.a
 s.b.aI4(s.c,q.a)
 A.aF(s.d,!1).aJ(r)
-s.e.R(t.J).f.d4(A.dp(r,r,r,B.bt,r,B.y,r,A.f('\u0645\u0627\u062a\u06d5\u0631\u06cc\u0627\u0644 \u0648 \u0633\u0644\u0627\u0628\u06d5\u06a9\u0627\u0646 \u0628\u06d5 \u0633\u06d5\u0631\u06a9\u06d5\u0648\u062a\u0648\u0648\u06cc\u06cc \u06af\u0648\u0627\u0632\u0631\u0627\u0646\u06d5\u0648\u06d5 \u0628\u06c6 "'+q.a.b+'".',r,r,r,r,r,r,r),r,B.k9,r,r,r,r,r,r,r,r,r,r))},
+s.e.R(t.J).f.d4(A.dp(r,r,r,B.bt,r,B.y,r,A.f('Materials and slabs were successfully transferred to "'+q.a.b+'".',r,r,r,r,r,r,r),r,B.k9,r,r,r,r,r,r,r,r,r,r))},
 $S:0}
 A.CT.prototype={
 gi0(){var s=this,r=s.a
@@ -123558,7 +123558,7 @@ B.a9l=new A.cb("Invalid CategoryCode",null,null,null,null,null,null,null,null,nu
 B.a5F=new A.L(!0,null,null,null,null,null,null,B.t,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
 B.a9m=new A.cb("Category Manager",null,B.a5F,null,null,null,null,null,null,null)
 B.a9n=new A.cb("Save",null,B.hs,null,null,null,null,null,null,null)
-B.a9o=new A.cb("\u0647\u06cc\u0686 \u06a9\u0627\u062a\u06d5\u06af\u06c6\u0631\u06cc\u06cc\u06d5\u06a9\u06cc \u062a\u0631 \u0646\u06cc\u06cc\u06d5 \u062a\u0627\u0648\u06d5\u06a9\u0648 \u062f\u0627\u062a\u0627\u06a9\u0627\u0646\u06cc \u0628\u06c6 \u0628\u06af\u0648\u0627\u0632\u06cc\u062a\u06d5\u0648\u06d5!",null,null,null,null,null,null,null,null,null)
+B.a9o=new A.cb("There are no other categories available to transfer items to!",null,null,null,null,null,null,null,null,null)
 B.Gu=new A.cb("Reset",null,null,null,null,null,null,null,null,null)
 B.a9p=new A.cb("Add First Material",null,null,null,null,null,null,null,null,null)
 B.a9r=new A.cb("New Category",null,B.hs,null,null,null,null,null,null,null)
