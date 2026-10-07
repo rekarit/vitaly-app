@@ -109352,11 +109352,11 @@ j=A.Z(25,k.l()>>>16&255,k.l()>>>8&255,k.l()&255)
 i=A.a_(A.Z(80,k.l()>>>16&255,k.l()>>>8&255,k.l()&255),1.5)
 i=A.bR(A.q(b,A.U(B.lc,k,b,28),B.f,b,b,new A.p(j,b,i,b,b,b,B.bj),b,58,b,b,b,b,58),b,b)
 j=c.a.d
-if(j==null)j="\u067e\u06ce\u0648\u06cc\u0633\u062a\u062a \u0628\u06d5 \u067e\u06ce\u0631\u0645\u06cc\u0634\u0646\u06d5"
+if(j==null)j="Permission Required"
 h=a.w
 j=A.c(j,b,b,b,A.f().$3$color$fontSize$fontWeight(h,18,B.n),B.br,b,b)
 g=c.a.e
-if(g==null)g="\u062a\u06c6 \u067e\u06ce\u0648\u06cc\u0633\u062a\u062a \u0628\u06d5 \u067e\u06ce\u0631\u0645\u06cc\u0634\u0646\u06d5 \u0628\u06c6 \u0626\u06d5\u0645 \u06a9\u0631\u062f\u0627\u0631\u06d5 \u062a\u06a9\u0627\u06cc\u06d5 \u0664 \u062f\u06cc\u062c\u06cc\u062a\u06d5\u06a9\u06d5\u062a \u0628\u0646\u0648\u0648\u0633\u06d5"
+if(g==null)g="You need permission for this action. Please enter the 4-digit PIN."
 f=a.x
 e=t.p
 g=A.a([i,B.bY,j,B.aZ,A.c(g,b,b,b,A.f().$3$color$fontSize$height(f,13,1.45),B.br,b,b)],e)
@@ -109370,20 +109370,20 @@ q=c.r
 j=A.U(q?B.vd:B.vc,f,b,16)
 i=c.a
 if(q){q=i.x
-if(q==null)q="\u067e\u06cc\u0634\u0627\u0646\u062f\u0627\u0646\u06cc \u06a9\u06c6\u062f"}else{q=i.y
-if(q==null)q="\u0634\u0627\u0631\u062f\u0646\u06d5\u0648\u06d5\u06cc \u06a9\u06c6\u062f"}g.push(A.bR(A.We(j,A.c(q,b,b,b,A.f().$2$color$fontSize(f,11.5),b,b,b),new A.aNK(c),b),b,b))
+if(q==null)q="Show PIN"}else{q=i.y
+if(q==null)q="Hide PIN"}g.push(A.bR(A.We(j,A.c(q,b,b,b,A.f().$2$color$fontSize(f,11.5),b,b,b),new A.aNK(c),b),b,b))
 q=c.f
 if(q.length!==0){j=a.as
 B.b.J(g,A.a([B.C,A.v(A.a([A.U(B.lb,j,b,15),B.aE,new A.dy(1,B.aW,A.c(q,b,b,b,A.f().$3$color$fontSize$fontWeight(j,12,B.B),B.br,b,b),b)],e),B.i,B.bU,B.h,0,b)],e))}g.push(B.bZ)
 q=A.dJ(b,b,b,b,b,b,b,b,b,h,b,b,B.fW,b,new A.aj(A.i(10),B.k),new A.a2(m,1,B.p,-1),b,b,b,b)
 j=c.a.r
-if(j==null)j="\u062f\u0627\u062e\u0633\u062a\u0646"
+if(j==null)j="Cancel"
 q=A.a5(A.hh(A.c(j,b,b,b,A.f().$2$fontSize$fontWeight(13,B.q),b,b,b),new A.aNL(a0),q),1)
 s=s.ax.a===B.W?B.aj:B.l
 s=A.bC(b,b,k,b,b,b,0,b,b,s,b,b,B.fW,b,new A.aj(A.i(10),B.k),b,b,b,b,b)
 k=p.length===4?new A.aNM(c,p):b
 j=c.a.f
-if(j==null)j="\u062a\u06d5\u0626\u06a9\u06cc\u062f\u06a9\u0631\u062f\u0646"
+if(j==null)j="Confirm"
 g.push(A.v(A.a([q,B.ay,A.a5(A.dG(A.c(j,b,b,b,A.f().$2$fontSize$fontWeight(13,B.n),b,b,b),k,s),1)],e),B.i,B.e,B.h,0,b))
 return A.el(b,a.b,new A.c1(B.rq,new A.aq(new A.V(l,l,l,l),A.a1(g,B.aq,B.e,B.u),b),b),b,b,b,new A.V(o,24,o,24),B.b4,b,new A.aj(n,new A.a2(m,1,B.p,-1)),b)}}
 A.aNN.prototype={
@@ -109391,7 +109391,7 @@ $1(a){this.a.e.eF()},
 $S:3}
 A.aND.prototype={
 $0(){var s=this.a,r=s.a.w
-s.f=r==null?"\u06a9\u06c6\u062f\u06cc \u062f\u0627\u062e\u06b5\u06a9\u0631\u0627\u0648 \u0647\u06d5\u06b5\u06d5\u06cc\u06d5\u060c \u062a\u06a9\u0627\u06cc\u06d5 \u062f\u0648\u0648\u0628\u0627\u0631\u06d5 \u0647\u06d5\u0648\u06b5\u0628\u062f\u06d5\u0631\u06d5\u0648\u06d5":r
+s.f=r==null?"Incorrect PIN entered, please try again":r
 s.d.bY(B.as)},
 $S:0}
 A.aNG.prototype={
@@ -117628,11 +117628,11 @@ i=A.a([new A.aY(4,B.J,B.r.ah(0.5),B.BL,40)],p)
 h=A.a([B.bJ.ah(0.25),B.io.ah(0.12)],t.d)
 h=A.q(b,B.R9,B.f,b,b,new A.p(b,b,A.a_(B.bJ.ah(0.6),2),b,A.a([new A.aY(2,B.J,B.bJ.ah(0.28),B.t,24)],p),new A.et(B.bt,B.cp,B.b0,h,b,b),B.bj),b,76,b,b,b,b,76)
 p=A.c("Unavailable Right now",b,b,b,A.f().$4$color$fontSize$fontWeight$letterSpacing(a2.w,22,B.d2,-0.5),B.br,b,b)
-g=A.c("\u0626\u06d5\u0645 \u0628\u06d5\u0634\u06d5 \u0644\u06d5 \u0626\u06ce\u0633\u062a\u0627\u062f\u0627 \u0628\u06d5\u0631\u062f\u06d5\u0633\u062a \u0646\u06cc\u06cc\u06d5",b,b,b,A.f().$3$color$fontSize$fontWeight(a2.x,14,B.q),B.br,b,b)
+g=A.c("This section is currently unavailable",b,b,b,A.f().$3$color$fontSize$fontWeight(a2.x,14,B.q),B.br,b,b)
 f=B.bJ.ah(0.12)
 e=A.i(20)
 d=A.a_(B.bJ.ah(0.35),1)
-return A.hE(b,a2.a,A.fp(B.cg,A.a([r,a0,A.bR(A.q(b,A.a1(A.a([h,B.GK,p,B.aZ,g,B.bY,A.q(b,A.v(A.a([B.RA,B.aE,A.c("Temporarily Locked / \u0642\u0648\u0641\u06b5\u06a9\u0631\u0627\u0648\u06d5",b,b,b,A.f().$3$color$fontSize$fontWeight(B.bJ,12,B.n),b,b,b)],l),B.i,B.e,B.u,0,b),B.f,b,b,new A.p(f,b,d,e,b,b,B.j),b,b,b,B.iH,b,b,b)],l),B.i,B.e,B.u),B.f,b,B.rt,new A.p(a1,b,j,k,i,b,B.j),b,b,B.kL,B.OY,b,b,b),b,b)],l),B.w,B.GR,b),b,b,b)},
+return A.hE(b,a2.a,A.fp(B.cg,A.a([r,a0,A.bR(A.q(b,A.a1(A.a([h,B.GK,p,B.aZ,g,B.bY,A.q(b,A.v(A.a([B.RA,B.aE,A.c("Temporarily Locked",b,b,b,A.f().$3$color$fontSize$fontWeight(B.bJ,12,B.n),b,b,b)],l),B.i,B.e,B.u,0,b),B.f,b,b,new A.p(f,b,d,e,b,b,B.j),b,b,b,B.iH,b,b,b)],l),B.i,B.e,B.u),B.f,b,B.rt,new A.p(a1,b,j,k,i,b,B.j),b,b,B.kL,B.OY,b,b,b),b,b)],l),B.w,B.GR,b),b,b,b)},
 agy(a,b){var s,r,q,p,o,n,m,l=this,k=null,j=a.d,i=l.c
 i.toString
 if(A.cb(i)===B.ag)i=1/0
